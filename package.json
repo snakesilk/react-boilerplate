@@ -1,0 +1,18 @@
+{
+  "name": "snakesilk-game",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "jest --env=jsdom"
+  },
+  "dependencies": {
+    "@snakesilk/engine": "^0.12.0",
+    "@snakesilk/react-presenter": "^0.0.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10",
+    "serve": "^6.0.6"
+  }
+}

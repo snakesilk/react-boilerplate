@@ -1,0 +1,32 @@
+.App {
+  height: 100%;
+}
+
+.App .snakesilk-presenter {
+    font-size: 2vh;
+    height: 7vh;
+    margin: 0 auto;
+    width: 14vw;
+}
+
+.App .snakesilk-presenter .Video .overlay {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.App .snakesilk-progress-bar {
+    border: solid 3px #fff;
+    width: 50%;
+}
+
+.App .snakesilk-progress-bar.idle {
+    display: none;
+}
+
+.App .snakesilk-progress-bar .progress {
+    background: #fff;
+    height: 10px;
+    width: 50%;
+}
